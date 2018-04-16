@@ -20,7 +20,7 @@ public class FizzBuzzGameTest {
     @Test
     public void should_Return_Bizz_when_is_Multiple_of_5() {
         FizzBuzzGame game = new FizzBuzzGame();
-        assertThat(game.getOutput(10)).isEqualTo("Bizz");
+        assertThat(game.getOutput(10)).isEqualTo("Buzz");
     }
 
     @Test
@@ -32,7 +32,7 @@ public class FizzBuzzGameTest {
     @Test
     public void should_Return_FizzBizz_when_is_Multiple_of_3_and_5(){
         FizzBuzzGame game = new FizzBuzzGame();
-        assertThat(game.getOutput(15)).isEqualTo("FizzBizz");
+        assertThat(game.getOutput(15)).isEqualTo("FizzBuzz");
     }
 
 }

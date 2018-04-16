@@ -24,16 +24,16 @@ public class FizzBuzzGame {
 
     public String getOutput(int i) {
         String str = "";
-        if (isMultipliOfNum(i, specialNum[0]))
+        if (isMultipleOfNum(i, specialNum[0]))
             str += "Fizz";
-        if (isMultipliOfNum(i, specialNum[1]))
-            str += "Bizz";
-        if (isMultipliOfNum(i, specialNum[2]))
+        if (isMultipleOfNum(i, specialNum[1]))
+            str += "Buzz";
+        if (isMultipleOfNum(i, specialNum[2]))
             str += "Whizz";
         return str;
     }
 
-    public boolean isMultipliOfNum(int integer, int num) {
+    public boolean isMultipleOfNum(int integer, int num) {
         return integer % num == 0;
     }
 
